@@ -10,7 +10,7 @@
   box-sizing: border-box;
 }
 body {
-
+  margin: 0;
 }
 header {
   position: fixed;
@@ -44,9 +44,13 @@ header {
   right: 0;
   top: 16px;
   padding: 11px 40px;
+  color: #ffffff;
   background-color: #da6b64;
   border-radius: 25px;
 }
 .contactpc p {
   margin: 0;
+}
+.contactsp {
+  display: none;
 }
