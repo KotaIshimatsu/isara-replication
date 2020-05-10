@@ -1,13 +1,21 @@
-.txtl { font-size: 28px; font-weight: 600; }
-.txtm { font-size: 20px; font-weight: 600; }
-.txts { font-size: 16px; font-weight: 600; }
-.txtxs { font-size: 14px; font-weight: 300; }
+.txtl { font-size: 24px; font-weight: 600; }
+.txtm { font-size: 16px; font-weight: 600; }
+.txts { font-size: 14px; font-weight: 600; }
+.txtxs { font-size: 12px; font-weight: 300; letter-spacing: 0; }
 .brsp { display: none; }
 .brpc { display: block; }
+p {
+  margin: 0 0 10px;
+}
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+}
+img {
+  width: auto;
+  height: auto;
+  vertical-align: middle;
 }
 body {
   margin: 0;
@@ -29,11 +37,16 @@ header {
 .title .logo, .subtitle {
   display: inline-block;
 }
+.logo {
+  margin-top: -6px;
+}
 .logo img{
   width: 128px;
+  height: auto;
 }
 .subtitle {
   position: relative;
+  bottom: -10px;
 }
 .subtitle p {
   font-weight: 600;
@@ -53,4 +66,65 @@ header {
 }
 .contactsp {
   display: none;
+}
+/* main */
+.main {
+  padding-top: 75px;
+}
+.cover-img {
+  background-image: url(https://isara.life/wp-content/themes/isara_v2/img/main.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  display: table;
+  height: 500px;
+}
+.cover-text {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+.mainlogo {
+  width: 317px;
+  margin-bottom: 20px;
+}
+/* conversion */
+.conversion {
+  background-color: #ebb94d;
+  text-align: center;
+  padding: 30px 0;
+  color: #ffffff;
+}
+code { 
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #c7254e;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+.conversionbtn {
+  cursor: pointer;
+  padding: 25px 50px;
+  background-color: #da6b64;
+  border-radius: 50px;
+  margin: 10px 80px;
+  max-width: 1028px;
+}
+.conversionbtn p {
+  margin: 0;
+  font-size: 18px;
+}
+/* introduction */
+.introduction {
+  padding: 40px 0;
+  height: 587px;
+  background-image: url(https://isara.life/wp-content/themes/isara_v2/img/introbottom.jpg);
+  background-position: center;
+  text-align: center;
+}
+.yellowbracketswide {
+  margin: 0 auto;
+  width: 860px;
+  padding: 15px 0px;
+  box-sizing: ;
 }
