@@ -22,6 +22,8 @@ body {
 }
 header {
   position: fixed;
+  top: 0;
+  left: 0;
   z-index: 10;
   background-color: #ffffff;
   width: 100%;
@@ -119,12 +121,151 @@ code {
   padding: 40px 0;
   height: 587px;
   background-image: url(https://isara.life/wp-content/themes/isara_v2/img/introbottom.jpg);
+  background-size: cover;
   background-position: center;
   text-align: center;
 }
 .yellowbracketswide {
+  position: relative;
   margin: 0 auto;
   width: 860px;
   padding: 15px 0px;
-  box-sizing: ;
+  box-sizing: border-box;
+}
+.yellowbracketswide::before, .yellowbracketswide::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+}
+.yellowbracketswide::before {
+  top: 0;
+  left: 0;
+  border-top: 4px solid #ebb94d;
+  border-left: 4px solid #ebb94d;
+}
+.yellowbracketswide::after {
+  bottom: 0;
+  right: 0;
+  border-bottom: 4px solid #ebb94d;
+  border-right: 4px solid #ebb94d;
+}
+.contents {
+  padding: 40ox 0;
+}
+.contents p {
+  font-size: 16px;
+}
+.underline {
+  font-weight: bolder;
+  background: linear-gradient(#0000 70%, #ebb94d);
+}
+/* aboutisara */
+.about {
+  padding: 0 0 40px 0;
+  background-color: #fef5e0;
+  text-align: center;
+}
+.circle1 {
+  color: #ffffff;
+  background-color: #ebb94d;
+  margin: 0;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50px;
+}
+.yellowbracketsnarrow {
+  margin: 0 auto;
+  position: relative;
+  width: 860px;
+  padding: 15px 30px;
+  box-sizing: border-box;
+}
+.yellowbracketsnarrow::before, .yellowbracketsnarrow::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+}
+.yellowbracketsnarrow::before {
+  top: 0;
+  left: 0;
+  border-top: 4px solid #ebb94d;
+  border-left: 4px solid #ebb94d;
+}
+.yellowbracketsnarrow::after {
+  bottom: 0;
+  right: 0;
+  border-bottom: 4px solid #ebb94d;
+  border-right: 4px solid #ebb94d;
+}
+.abouttitle p {
+  margin-top: 40px;
+}
+.aboutbox {
+  width: 1170px;
+  max-width: calc(100% - 40px);
+  margin: 30px auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border: 2px solid #ebb94d;
+  border-radius: 5px;
+}
+.box {
+  padding: 10px;
+  display: inline-block;
+}
+/* .aboutsecond */
+.aboutsecond {
+  background-image: url(https://isara.life/wp-content/themes/isara_v2/img/aboutsecondbgsp.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 40px 0;
+  text-align: center;
+}
+.aboutsecond h2, .aboutsecond p {
+  color: #ffffff;
+}
+.yellowtxt {
+  color: #ebb94d;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.row {
+  display: flex;
+}
+.sidebox {
+  padding: 30px 30px 20px;
+  width: 32%;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+.sidebox:nth-of-type(2) {
+  margin: 0 1.5%;
+}
+.sidecontents p {
+  color: black;
+}
+.step {
+  background-color: #ebb94d;
+  border-radius: 5px;
+}
+/* aboutthird */
+.aboutthird {
+  padding: 40px 0;
+  text-align: center;
+  background-color: #016ea9;
+  color: #ffffff;
+}
+.aboutthird p {
+  margin-right: 0;
 }
