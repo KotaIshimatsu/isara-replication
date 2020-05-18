@@ -987,7 +987,9 @@ form#OF_form1 textarea {
   font-size: 28px;
   font-weight: 600;
 }
-
+.fa-question-circle {
+  color: #016ea9;
+}
 .questionsheading {
   padding: 20px;
   background-color: #ffffff !important;
@@ -1045,4 +1047,7 @@ form#OF_form1 textarea {
   right: 50px;
   background-color: #ececec;
   padding: 20px;
+}
+.fa-chevron-up {
+  font-size: 30px;
 }
