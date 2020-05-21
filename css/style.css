@@ -659,9 +659,13 @@ code {
   font-size: 16px;
 }
 .classbox {
-  padding: 30px 10%;
+  padding: 40px 0;
   max-width: 780px;
   margin: 0 auto;
+}
+.classbox .row {
+  margin-right: -15px;
+  margin-left: -15px;
 }
 
 .classwrap {
@@ -1014,8 +1018,11 @@ form#OF_form1 textarea {
 
 .questions h4 {
   margin: 0;
+  line-height: 1.1;
 }
-
+.collapse {
+  display: none;
+}
 .questionsbody {
   padding: 20px;
 }
