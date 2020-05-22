@@ -1023,6 +1023,9 @@ form#OF_form1 textarea {
 .collapse {
   display: none;
 }
+.collapse.open {
+  display: block;
+}
 .questionsbody {
   padding: 20px;
 }
