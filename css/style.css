@@ -1023,9 +1023,7 @@ form#OF_form1 textarea {
 .collapse {
   display: none;
 }
-.collapse.open {
-  display: block;
-}
+
 .questionsbody {
   padding: 20px;
 }
@@ -1057,6 +1055,7 @@ form#OF_form1 textarea {
   right: 50px;
   background-color: #ececec;
   padding: 20px;
+  display: none;
 }
 .fa-chevron-up {
   font-size: 30px;
