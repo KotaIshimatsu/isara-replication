@@ -2,15 +2,7 @@ $(function() {
   $('.collapsed').click(function(e) {
     e.preventDefault();
     var $answer = $(this).parents('.panel').find('.collapse');
-
-    if($answer.hasClass('open')){
-      $answer.removeClass('open');
-      $answer.slideUp();
-
-    } else {
-      $answer.addClass('open');
-      $answer.slideDown();
-    }
+    $answer.slideToggle(400);
   });
 
   $('.pagetop').click(function() {
