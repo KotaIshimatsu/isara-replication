@@ -12,4 +12,17 @@ $(function() {
       $answer.slideDown();
     }
   });
+
+  $('.pagetop').click(function() {
+    $('html,body').animate({scrollTop:0},'300');
+  })
+
+  $('.pagetop').hide();
+  $(window).scroll(function() {
+    if($(window).scrollTop() > 0) {
+      $('.pagetop').fadeIn(600);
+    } else {
+      $('.pagetop').fadeOut(600);
+    }
+  })
 });
