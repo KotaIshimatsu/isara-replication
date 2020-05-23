@@ -1,7 +1,7 @@
 $(function() {
-  $('.collapsed').click(function() {
+  $('.collapsed').click(function(e) {
+    e.preventDefault();
     var $answer = $(this).parents('.panel').find('.collapse');
-    console.log($answer);
 
     if($answer.hasClass('open')){
       $answer.removeClass('open');
